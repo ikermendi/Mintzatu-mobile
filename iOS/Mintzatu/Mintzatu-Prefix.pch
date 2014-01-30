@@ -1,0 +1,27 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+
+    //km
+    #define MAX_CHECKIN_DISTANCE 50
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "SWRevealViewController.h"
+    #import "UIColor+MintzatuColors.h"
+#endif
+
+#ifdef NDEBUG
+    #define NSLog(...) /* suppress NSLog when in release mode */
+#endif

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>664D5330-E104-445F-BAAB-F1C76B701992</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Mintzatu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EE73FFB4-6B8D-4A5A-BEAE-C35D8A7B2283</key>
+		<string>http://dev.irontec.com/svn/mintzatu/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>mobile/iOS/Mintzatu/Mintzatu.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EE73FFB4-6B8D-4A5A-BEAE-C35D8A7B2283</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>EE73FFB4-6B8D-4A5A-BEAE-C35D8A7B2283</key>
+		<string>http://dev.irontec.com/svn/mintzatu</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://dev.irontec.com/svn/mintzatu/trunk/mobile/iOS/Mintzatu/Mintzatu.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EE73FFB4-6B8D-4A5A-BEAE-C35D8A7B2283</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EE73FFB4-6B8D-4A5A-BEAE-C35D8A7B2283</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Mintzatu</string>
+		</dict>
+	</array>
+</dict>
+</plist>
