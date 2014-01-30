@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_checkin"
+        android:icon="@drawable/checkin_menu"
+        android:showAsAction="always"
+        android:title="@string/action_checkin"/>
+    <item
+        android:id="@+id/action_comment"
+        android:icon="@drawable/ic_menu_start_conversation"
+        android:showAsAction="always"
+        android:title="@string/action_comment"/>
+
+</menu>

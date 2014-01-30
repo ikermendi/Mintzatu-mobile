@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/normal_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_beige"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/argazkia"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="@string/place_image"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/normal_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_beige"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/izena"
+                style="@style/nameTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/selectedLayer"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/map_list_item_states"
+        android:orientation="vertical"
+        android:visibility="visible" >
+    </LinearLayout>
+
+</FrameLayout>

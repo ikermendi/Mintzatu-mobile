@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BadgeButton">
+        <attr name="text" format="string"/>
+        <attr name="style" format="reference"/>
+        <attr name="width" format="dimension"/>
+        <attr name="bheight" format="dimension"/>
+        <attr name="number" format="string"/>         
+    </declare-styleable>
+</resources>

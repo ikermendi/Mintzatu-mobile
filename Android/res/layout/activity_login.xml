@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_beige"
+    tools:context=".LoginActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/mintzatu_orange"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/logoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="218dp"
+            android:layout_height="299dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_inicio" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/logoLayout"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_margin="10dp" >
+
+        <Button
+            android:id="@+id/btnSartu"
+            style="@style/ButtonBeige"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttom_selector_light"
+            android:text="@string/sartu" />
+
+        <Button
+            android:id="@+id/btnErregistratu"
+            style="@style/ButtonBeige"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttom_selector_light"
+            android:text="@string/erregistratu" />
+    </LinearLayout>
+
+</RelativeLayout>

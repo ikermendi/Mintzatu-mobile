@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/first_row"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:visibility="visible" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mintzatuRow"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/mintzatu_orange"
+        android:orientation="vertical"
+        android:visibility="visible" >
+    </LinearLayout>
+
+</LinearLayout>

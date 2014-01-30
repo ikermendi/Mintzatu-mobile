@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources>
+
+    <string name="app_name">mintzatu</string>
+
+    <string-array name="views_array">
+        <item>Lekuak</item>
+        <item>Lagunak</item>
+        <item>Esploratu</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="title_activity_login" />
+
+    <!-- Login View -->
+    <string name="sartu">Sartu</string>
+    <string name="erregistratu">Erregistratu</string>
+    <string name="posta">posta elektronikoa</string>
+    <string name="pasahitza">pasahitza</string>
+    <string name="pasahitza2">pasahitza berriro</string>
+    <string name="ezeztatu">Ezeztatu</string>
+    <string name="ezizena">ezizena</string>
+    <string name="bad_email">Posta helbidea ez du balio</string>
+    <string name="bad_email2">Posta helbidea beharrezkoa da</string>
+    <string name="bad_username">Ezizena beharrezkoa da</string>
+    <string name="bad_name">Izena beharrezkoa da</string>
+    <string name="bad_password">Pasahitza beharrezkoa da</string>
+    <string name="password_too_short">Pasahitza laburregia da. Aukeratu gutxienez 6 karaktere dituen pasahitz bat</string>
+    <string name="registered_email">Posta helbidea erabilita dago. Aukeratu beste helbide bat</string>
+    <string name="registered_user">Erabiltzailea erabilita dago. Aukeratu beste erabiltzaile bat</string>
+    <string name="berreskuratu">Berreskuratu</string>
+    <string name="txtBerreskuratu">Pasahitza ahaztu duzu?</string>
+
+    <!-- Profile -->
+    <string name="azkena">Azken lekua:</string>
+    <string name="lekua">San Mamés</string>
+    <string name="eskaerak">Eskaerak</string>
+    <string name="alkatetzak">Alkatetza</string>
+    <string name="dominak">Domina</string>
+    <string name="mezuak">Mezu pribatuak</string>
+    <string name="checkin">Egindako check-inak</string>
+    <string name="irudiak">Irudiak</string>
+    <string name="no_badges">Oraindik ez duzu dominarik lortu</string>
+    <string name="lagunEskaera">Lagun egin</string>
+    <string name="no_checkin_yet">Oraindik ez du check-inik egin</string>
+
+    <!-- Messages -->
+    <string name="eskaera">-(e)k zure laguna</string>
+    <string name="eskaera2">izan nahi du</string>
+    <string name="ukatu">Ukatu</string>
+    <string name="onartu">Onartu</string>
+
+    <!-- Content Descriptions -->
+    <string name="avatar">Erabiltzailearen argazkia</string>
+
+    <!-- Toast -->
+    <string name="bad_login">Erabiltzailea edo pasahitza gaizki daude</string>
+    <string name="bad_signin">Beharrezko datuak falta dira edo gaizki jarrita daude</string>
+    <string name="api_failed">Zerbitzuarekin arazoak daude, beranduago saiatu</string>
+    <string name="password_no_match">Pasahitzak desberdinak dira</string>
+    <string name="see_email">Zure posta elektronikora mezu bat bidali dizugu</string>
+    <string name="api_session_expired">Zure saioa amaitu da. Saio berri bat hasi behar duzu.</string>
+    <string name="api_comments_not_found">Ez dago iruzkinik erakusteko</string>
+    <string name="api_places_not_found">Ez dago lekurik erakusteko</string>
+    <string name="api_friends_not_found">Ez dago lagunik erakusteko</string>
+    <string name="api_pictures_not_found">Ez dago argazkirik erakusteko</string>
+    <string name="api_requests_not_found">Ez dago eskaerarik erakusteko</string>
+    <string name="api_checkins_not_found">Ez dago checkin-ik erakusteko</string>
+    <string name="api_categories_not_found">Ez dago kategoriarik erakusteko</string>
+    <string name="api_activities_not_found">Ez dago aktibitaterik erakusteko</string>
+    <string name="api_people_not_found">Ez dago lagunik erakusteko</string>
+    <string name="api_checkin_time">Leku berean zaude. Hemen check-in egiteko, beste leku baten egin beharko duzu lehenago</string>
+    <string name="api_invalid_pwd_reset_email"> Ez dugu posta elektroniko hori duen konturik aurkitu</string>
+    <string name="api_malformed_email">Posta elektronikoare formatua ez da egokia</string>
+    <string name="api_email_reseted">Zure pasahitza aldatzeko mezua bidali dizugu</string>
+    <string name="api_required_email">Posta elektronikoaren helbidea beharrezkoa da</string>
+    <string name="api_min_search_lenght">Gutxienez bi hizkiko bilaketak egin behar dira</string>
+    <string name="api_duplicated_place">Leku hau Mintzatu sarearen parte da jada</string>
+    <string name="no_photo_selected">Ez duzu argazkirik aukeratu</string>
+
+    <!-- Map -->
+    <string name="itxi">Itxi</string>
+
+    <!-- Places -->
+    <string name="toki_berria">Toki berria gehitu</string>
+    <string name="place_image">Lekuaren irudia</string>
+    <string name="azalpenak">Iruzkinak</string>
+    <string name="nork_checkin">%1$s-(e)k check-in egin du</string>
+    <string name="non_checkin">%1$s-(a)n</string>
+    <string name="nork_argazkia">%1$s-(e)k argazkia gehitu du</string>
+    <string name="nork_iruzkina">%1$s-(e)k iruzkina egin du</string>
+
+    <!-- Search -->
+    <string name="noresults">Leku berria gehitu</string>
+    <string name="noresults2">Ez ditugu \'%1$s\' izenadun lekurik aurkitu</string>
+
+    <!-- New Place -->
+    <string name="izena">Izena</string>
+    <string name="informazioa">Informazioa</string>
+    <string name="helbidea">Helbidea</string>
+    <string name="town">Herria</string>
+    <string name="kategoria">Kategoria</string>
+    <string name="kokapena">Kokapena</string>
+    <string name="lekuaGehitu">Lekua gehitu</string>
+    <string name="noname">Izena beharrezkoa da</string>
+    <string name="nocategory">Kategoria beharrezkoa da</string>
+    <string name="specific_address_needed">Leku honek helbidea eta herria euki behar du. Helbidea eta herria sartu eta berriz saiatu</string>
+
+    <!-- Checkin -->
+    <string name="aholkua">Aholkua: argazkiak geroago gehitu ditzakezu</string>
+    <string name="bai">Bai</string>
+    <string name="ez">Ez</string>
+
+    <!-- Configuration -->
+    <string name="enable_gps">GPS-a piztu</string>
+    <string name="enable_gps_text">Zure kokapena zehatzagoa izan dadin gps-a piztu</string>
+    <string name="album_name">Mintzatu</string>
+
+    <!-- Subdetail -->
+    <string name="sub_azalpenak">Iruzkinak</string>
+    <string name="sub_argazkiak">Argazkiak</string>
+    <string name="sub_checkin">Check-in</string>
+    <string name="sub_comment">Iruzkina</string>
+    <string name="sub_argazkia">Agazkia</string>
+    <string name="sub_nork_checkin">-(e)k check-in egin du</string>
+    <string name="sub_non_checkin">-(a)n</string>
+    <string name="sub_non_checkin_param">%1$s-(a)n</string>
+    <string name="sub_nork_argazkia">-(e)k argazkia gehitu du</string>
+    <string name="sub_nork_iruzkina">-(e)k iruzkina egin du</string>
+
+    <!-- Comments -->
+    <string name="empty_comment">Iruzkinak ezin du hutsik egon</string>
+    <string name="comment_lenght">%d hizki 140-tik</string>
+    <string name="comment_hint">Zure iruzkina egin</string>
+
+    <!-- Twitter -->
+    <string name="tweet2">Hemen nago euskaraz mintzatzen! %1$s :: %2$s #mintzatu #euskara #mundiala</string>
+    <string name="tweet">%1$s-(e)k check-in egin du %2$s-(a)n</string>
+
+    <!-- Facebook -->
+    <string name="fb">%1$s-(e)k check-in egin du %2$s-(a)n</string>
+    <string name="fbtext">%1$s-(e)k saria lortu du</string>
+    <string name="fb2">%1$s :: %2$s :: Mintzatu</string>
+    <string name="fbtext2">Hemen nago euskaraz mintzatzen!</string>
+
+    <!-- Preferences -->
+    <string name="ezarpenak_sare_sozialak">Sare sozialak</string>
+    <string name="ezarpenak_lizentziak">Lizentziak</string>
+
+    <!-- ABS Menu -->
+    <string name="action_search">Bilatu</string>
+    <string name="action_checkin">Check-in</string>
+    <string name="action_comment">Iruzkina egin</string>
+    <string name="title_activity_checkin">Check-in</string>
+    <string name="title_activity_mayorship">Alkatetzak</string>
+    <string name="title_activity_gallery">Galeria</string>
+    <string name="title_activity_place_search">Bilatzailea</string>
+    <string name="title_activity_profile">Profila</string>
+    <string name="title_activity_place" />
+    <string name="title_activity_badge">Sariak</string>
+    <string name="title_activity_message">Mezuak</string>
+    <string name="title_activity_friend_request">Eskaerak</string>
+    <string name="title_activity_new_place">Leku berria gehitu</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new_place_map">Kokatu lekua</string>
+    <string name="title_activity_my_checkin">Egindako check-inak</string>
+    <string name="title_activity_place_sub_detail"></string>
+    <string name="title_activity_twitter_webview">Twitter</string>
+    <string name="title_activity_gallery_detail">Argazkia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_ezarpenak_detail">Ezarpenak</string>
+    <string name="title_activity_badge_detail">Sariaren azalpena</string>
+    <string name="title_activity_iruzkina">Iruzkina gehitu</string>
+    <string name="title_activity_reset_password">Pasahitza berreskuratu</string>
+    <string name="title_activity_bilatu">Bilatu</string>
+    <string name="title_activity_profila">Profila</string>
+    <string name="title_activity_signin">Erregistratu</string>
+
+    <!-- Fb -->
+    <string name="app_id">FB_APP_ID</string>
+    <string name="title_activity_honi_buruz">Honi Buruz</string>
+
+</resources>

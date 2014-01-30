@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_beige">#E3E3DB</color>
+    <color name="mintzatu_orange">#ffaa00</color>
+    <color name="background_beige_light">#f0efeb</color>
+    <color name="button_beige">#F0EFEB</color>
+    <color name="button_beige_dark">#E3E3DB</color>
+    <color name="button_blue">#0086b5</color>
+    <color name="button_text_color">#A6A7A2</color>
+    <color name="edittext_text_color">#E3E3DB</color>
+    <color name="background_profile">#383838</color>
+    <color name="button_black">#383838</color>
+    <color name="beige_dark">#989792</color>
+    <color name="blue_light">#0086bb</color>
+    <color name="blue_transparent">#440086bb</color>
+    <color name="beige_text">#969590</color>
+    <color name="mintzatu_main_blue">#0086b5</color>
+    <color name="menu_background">#3a3a3a</color>
+    <color name="menu_item_background">#5b5b5b</color>
+    <color name="request_acepted">#31B404</color>
+    <color name="dialog_category_chooser">#F9F9F9</color>
+    <color name="list_item_white">#ba7878</color>
+</resources>
