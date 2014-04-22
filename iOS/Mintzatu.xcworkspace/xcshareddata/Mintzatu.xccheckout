@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>15E56911-8C50-4DBF-A20F-8024DFF0DC2A</string>
+	<string>671C337A-97FF-4581-B503-0C28E179CDE5</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Mintzatu</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D87997D4-0B16-43EB-A9BF-FF23B58488D3</key>
+		<key>1CCD5208-C225-46DA-8F25-6332461B6476</key>
 		<string>https://github.com/ikermendi/Mintzatu-mobile.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iOS/Mintzatu.xcodeproj/project.xcworkspace</string>
+	<string>iOS/Mintzatu.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D87997D4-0B16-43EB-A9BF-FF23B58488D3</key>
-		<string>../../..</string>
+		<key>1CCD5208-C225-46DA-8F25-6332461B6476</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/ikermendi/Mintzatu-mobile.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D87997D4-0B16-43EB-A9BF-FF23B58488D3</string>
+	<string>1CCD5208-C225-46DA-8F25-6332461B6476</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D87997D4-0B16-43EB-A9BF-FF23B58488D3</string>
+			<string>1CCD5208-C225-46DA-8F25-6332461B6476</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Mintzatu-mobile</string>
 		</dict>
