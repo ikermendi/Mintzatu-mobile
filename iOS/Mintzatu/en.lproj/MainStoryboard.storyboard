@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" initialViewController="AYl-ah-OFH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" initialViewController="AYl-ah-OFH">
     <dependencies>
         <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--Lekuak View Controller-->
@@ -1248,9 +1248,6 @@
                                         <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Placeholder" id="Y1o-Dr-SuK">
                                             <rect key="frame" x="8" y="17" width="60" height="60"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <connections>
-                                                <outletCollection property="gestureRecognizers" destination="FJX-S5-5Rn" appends="YES" id="CMo-ND-4Iu"/>
-                                            </connections>
                                         </imageView>
                                         <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Irontec" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QVR-mE-hOR">
                                             <rect key="frame" x="79" y="16" width="230" height="21"/>
@@ -1296,11 +1293,6 @@
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6V3-0e-UY7" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="FJX-S5-5Rn">
-                    <connections>
-                        <action selector="selectProfilePicture:" destination="Qhr-84-8lb" id="Rt3-qF-Kwo"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="998" y="66"/>
         </scene>

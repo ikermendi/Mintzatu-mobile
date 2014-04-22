@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A5B475B1855C1F2004A4392 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5B475A1855C1F2004A4392 /* FacebookSDK.framework */; };
 		6A6B31ED189A8319001C280D /* BabesleakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6B31EC189A8319001C280D /* BabesleakViewController.m */; };
 		6A6B31F3189A84A5001C280D /* babesleak.html in Resources */ = {isa = PBXBuildFile; fileRef = 6A6B31EF189A84A5001C280D /* babesleak.html */; };
 		6A6B31F4189A84A5001C280D /* dipu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A6B31F0189A84A5001C280D /* dipu.jpg */; };
@@ -18,10 +17,13 @@
 		6A6E60121819675800622889 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6E60111819675800622889 /* libz.dylib */; };
 		6A6E6026181970F300622889 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6E6025181970F300622889 /* AdSupport.framework */; };
 		6A94363F18476C4E00791A6E /* CategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A94363E18476C4E00791A6E /* CategoryCell.m */; };
-		6AF6E4C9186315DF006815E1 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF6E4C8186315DF006815E1 /* libGoogleAnalyticsServices.a */; };
 		6AF6E4D118634E83006815E1 /* TwitterAcountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6E4CF18634E83006815E1 /* TwitterAcountsViewController.m */; };
 		6AF6E4D518635AA1006815E1 /* AcountNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6E4D418635AA1006815E1 /* AcountNameCell.m */; };
-		84108BFC0D694CCCB17BBF2A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EBAD4CF2C0464495EBDB9D /* libPods.a */; };
+		AC3CF2AC1906E58200359EA8 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3CF2AB1906E58200359EA8 /* MKAnnotationView+WebCache.m */; };
+		AC3CF2AE1906E64600359EA8 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3CF2AD1906E64600359EA8 /* libGoogleAnalyticsServices.a */; };
+		AC3CF2C41906E69000359EA8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EBAD4CF2C0464495EBDB9D /* libPods.a */; };
+		AC3CF2C61906E6AB00359EA8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3CF2C51906E6AB00359EA8 /* libsqlite3.dylib */; };
+		AC9226E01906DDF300FF8EAF /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9226DF1906DDF300FF8EAF /* FacebookSDK.framework */; };
 		F800872817CB5DCA006A1D32 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F800872A17CB5DCA006A1D32 /* MainStoryboard.storyboard */; };
 		F80D586D17CB4556003EF6DD /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F80D586C17CB4556003EF6DD /* DetailCell.m */; };
 		F81718BF17F020D300498D5E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F81718BE17F020D300498D5E /* Localizable.strings */; };
@@ -160,6 +162,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AC3CF2B81906E67900359EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3CF2AF1906E67900359EA8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E7CA1D72991A41AC92F0C5DE;
+			remoteInfo = Pods;
+		};
+		AC3CF2BA1906E67900359EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3CF2AF1906E67900359EA8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B65CDD95112249ABBDB716C9;
+			remoteInfo = "Pods-AFNetworking";
+		};
+		AC3CF2BC1906E67900359EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3CF2AF1906E67900359EA8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 594223B889784A1FA66D1DEA;
+			remoteInfo = "Pods-MBProgressHUD";
+		};
+		AC3CF2BE1906E67900359EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3CF2AF1906E67900359EA8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3E6706E4C1DF4099BB06C920;
+			remoteInfo = "Pods-REComposeViewController";
+		};
+		AC3CF2C01906E67900359EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3CF2AF1906E67900359EA8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86EF654541134AE5AC7E6757;
+			remoteInfo = "Pods-SDWebImage";
+		};
+		AC3CF2C21906E67900359EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3CF2AF1906E67900359EA8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AA3724A3B6A443F0A0B34B68;
+			remoteInfo = "Pods-SWRevealViewController";
+		};
 		F852B0F017C2074700725DEF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F852B0C817C2074600725DEF /* Project object */;
@@ -195,6 +239,12 @@
 		6AF6E4CF18634E83006815E1 /* TwitterAcountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterAcountsViewController.m; sourceTree = "<group>"; };
 		6AF6E4D318635AA1006815E1 /* AcountNameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcountNameCell.h; sourceTree = "<group>"; };
 		6AF6E4D418635AA1006815E1 /* AcountNameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcountNameCell.m; sourceTree = "<group>"; };
+		AC3CF2AA1906E58200359EA8 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MKAnnotationView+WebCache.h"; path = "Mintzatu/MKAnnotationView+WebCache.h"; sourceTree = SOURCE_ROOT; };
+		AC3CF2AB1906E58200359EA8 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MKAnnotationView+WebCache.m"; path = "Mintzatu/MKAnnotationView+WebCache.m"; sourceTree = SOURCE_ROOT; };
+		AC3CF2AD1906E64600359EA8 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		AC3CF2AF1906E67900359EA8 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		AC3CF2C51906E6AB00359EA8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		AC9226DF1906DDF300FF8EAF /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		B8EBAD4CF2C0464495EBDB9D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F800872917CB5DCA006A1D32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		F80D586B17CB4556003EF6DD /* DetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCell.h; sourceTree = "<group>"; };
@@ -430,21 +480,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3CF2C61906E6AB00359EA8 /* libsqlite3.dylib in Frameworks */,
+				AC3CF2AE1906E64600359EA8 /* libGoogleAnalyticsServices.a in Frameworks */,
+				AC9226E01906DDF300FF8EAF /* FacebookSDK.framework in Frameworks */,
 				6A6E6026181970F300622889 /* AdSupport.framework in Frameworks */,
 				6A6E60121819675800622889 /* libz.dylib in Frameworks */,
 				6A6E60101819674700622889 /* SystemConfiguration.framework in Frameworks */,
+				AC3CF2C41906E69000359EA8 /* libPods.a in Frameworks */,
 				6A6E600E1819673700622889 /* CoreData.framework in Frameworks */,
 				F8C2134117DE151D006077A1 /* ImageIO.framework in Frameworks */,
 				F8EEA05517D0A0830020FF22 /* Accounts.framework in Frameworks */,
 				F8EEA05317D09F160020FF22 /* Social.framework in Frameworks */,
 				F856BE2D17C399010038E4C4 /* QuartzCore.framework in Frameworks */,
-				6AF6E4C9186315DF006815E1 /* libGoogleAnalyticsServices.a in Frameworks */,
 				F852B0D617C2074700725DEF /* CoreGraphics.framework in Frameworks */,
 				F852B0D817C2074700725DEF /* UIKit.framework in Frameworks */,
 				F852B10317C207BF00725DEF /* MapKit.framework in Frameworks */,
-				6A5B475B1855C1F2004A4392 /* FacebookSDK.framework in Frameworks */,
 				F852B0D417C2074600725DEF /* Foundation.framework in Frameworks */,
-				84108BFC0D694CCCB17BBF2A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +535,19 @@
 				6A6E602118196D0D00622889 /* GAITracker.h */,
 			);
 			name = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		AC3CF2B01906E67900359EA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC3CF2B91906E67900359EA8 /* libPods.a */,
+				AC3CF2BB1906E67900359EA8 /* libPods-AFNetworking.a */,
+				AC3CF2BD1906E67900359EA8 /* libPods-MBProgressHUD.a */,
+				AC3CF2BF1906E67900359EA8 /* libPods-REComposeViewController.a */,
+				AC3CF2C11906E67900359EA8 /* libPods-SDWebImage.a */,
+				AC3CF2C31906E67900359EA8 /* libPods-SWRevealViewController.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		F81718CA17F0597F00498D5E /* slider */ = {
@@ -586,6 +650,10 @@
 		F852B0D217C2074600725DEF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AC3CF2C51906E6AB00359EA8 /* libsqlite3.dylib */,
+				AC3CF2AF1906E67900359EA8 /* Pods.xcodeproj */,
+				AC3CF2AD1906E64600359EA8 /* libGoogleAnalyticsServices.a */,
+				AC9226DF1906DDF300FF8EAF /* FacebookSDK.framework */,
 				6A5B475A1855C1F2004A4392 /* FacebookSDK.framework */,
 				6A6E6025181970F300622889 /* AdSupport.framework */,
 				6A6E60111819675800622889 /* libz.dylib */,
@@ -785,6 +853,8 @@
 		F8621F6D17C6107600902BF1 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				AC3CF2AA1906E58200359EA8 /* MKAnnotationView+WebCache.h */,
+				AC3CF2AB1906E58200359EA8 /* MKAnnotationView+WebCache.m */,
 				6A6E60041819664300622889 /* GoogleAnalytics */,
 				F861612B17D4D161007D3929 /* SKBounceAnimation */,
 				F861612517D4D117007D3929 /* ZAActivityBar */,
@@ -1073,6 +1143,12 @@
 			mainGroup = F852B0C717C2074600725DEF;
 			productRefGroup = F852B0D117C2074600725DEF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AC3CF2B01906E67900359EA8 /* Products */;
+					ProjectRef = AC3CF2AF1906E67900359EA8 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F852B0CF17C2074600725DEF /* Mintzatu */,
@@ -1080,6 +1156,51 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AC3CF2B91906E67900359EA8 /* libPods.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPods.a;
+			remoteRef = AC3CF2B81906E67900359EA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AC3CF2BB1906E67900359EA8 /* libPods-AFNetworking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-AFNetworking.a";
+			remoteRef = AC3CF2BA1906E67900359EA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AC3CF2BD1906E67900359EA8 /* libPods-MBProgressHUD.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-MBProgressHUD.a";
+			remoteRef = AC3CF2BC1906E67900359EA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AC3CF2BF1906E67900359EA8 /* libPods-REComposeViewController.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-REComposeViewController.a";
+			remoteRef = AC3CF2BE1906E67900359EA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AC3CF2C11906E67900359EA8 /* libPods-SDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-SDWebImage.a";
+			remoteRef = AC3CF2C01906E67900359EA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AC3CF2C31906E67900359EA8 /* libPods-SWRevealViewController.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-SWRevealViewController.a";
+			remoteRef = AC3CF2C21906E67900359EA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F852B0CE17C2074600725DEF /* Resources */ = {
@@ -1193,6 +1314,7 @@
 				F8F51D6317C4DB280019B440 /* People.m in Sources */,
 				F834BEB817CF620F005EB8F1 /* AwardButton.m in Sources */,
 				F861615B17D5C719007D3929 /* LagunaCell.m in Sources */,
+				AC3CF2AC1906E58200359EA8 /* MKAnnotationView+WebCache.m in Sources */,
 				F81718C417F0272800498D5E /* PhotoDescriptionView.m in Sources */,
 				F8621F7617C6107600902BF1 /* UIColor+JSFlatButton.m in Sources */,
 				F8C2137617DF0648006077A1 /* EsploratuViewController.m in Sources */,
@@ -1409,7 +1531,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: IRONTEC INTERNET Y SISTEMAS SOBRE GNU LINUX SL (LTJP6FZ4XB)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/sgarcia/Documents/Proyectos/Mintzatu/mobile/iOS/Mintzatu,
+					/Users/Guest/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mintzatu/Mintzatu-Prefix.pch";
@@ -1427,7 +1549,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/sgarcia/Documents/Proyectos/Mintzatu/mobile/iOS/Mintzatu/Mintzatu/Libraries,
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "CA6A3B6A-4A5A-4592-A510-E7350162D812";
@@ -1545,7 +1667,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: IRONTEC INTERNET Y SISTEMAS SOBRE GNU LINUX SL (LTJP6FZ4XB)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/sgarcia/Documents/Proyectos/Mintzatu/mobile/iOS/Mintzatu,
+					/Users/Guest/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mintzatu/Mintzatu-Prefix.pch";
@@ -1563,7 +1685,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/sgarcia/Documents/Proyectos/Mintzatu/mobile/iOS/Mintzatu/Mintzatu/Libraries,
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "CA6A3B6A-4A5A-4592-A510-E7350162D812";
@@ -1584,7 +1706,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: IRONTEC INTERNET Y SISTEMAS SOBRE GNU LINUX SL (LTJP6FZ4XB)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/sgarcia/Documents/Proyectos/Mintzatu/mobile/iOS/Mintzatu,
+					/Users/Guest/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mintzatu/Mintzatu-Prefix.pch";
@@ -1602,7 +1724,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/sgarcia/Documents/Proyectos/Mintzatu/mobile/iOS/Mintzatu/Mintzatu/Libraries,
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "CA6A3B6A-4A5A-4592-A510-E7350162D812";
@@ -1714,7 +1836,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: IRONTEC INTERNET Y SISTEMAS SOBRE GNU LINUX SL (LTJP6FZ4XB)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/sgarcia/Documents/Proyectos/Mintzatu/mobile/iOS/Mintzatu,
+					/Users/Guest/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mintzatu/Mintzatu-Prefix.pch";
@@ -1732,7 +1854,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/sgarcia/Documents/Proyectos/Mintzatu/mobile/iOS/Mintzatu/Mintzatu/Libraries,
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "CA6A3B6A-4A5A-4592-A510-E7350162D812";
